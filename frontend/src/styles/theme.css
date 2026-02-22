@@ -1,0 +1,82 @@
+/* App background */
+body {
+  margin: 0;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  background: #f5f7fb;
+}
+
+/* ReactFlow wrapper */
+.react-flow {
+  background-color: #f5f7fb;
+}
+
+/* Node card */
+.saas-node {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e6e8ec;
+  min-width: 180px;
+}
+
+/* Node title */
+.saas-node-title {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #1f2937;
+}
+
+/* Inputs + textarea */
+.saas-node input,
+.saas-node textarea,
+.saas-node select {
+  width: 100%;
+  padding: 6px 8px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 13px;
+  outline: none;
+}
+
+.saas-node input:focus,
+.saas-node textarea:focus,
+.saas-node select:focus {
+  border-color: #5b8def;
+  box-shadow: 0 0 0 2px rgba(91, 141, 239, 0.15);
+}
+
+/* Submit button */
+.saas-button {
+  background: #5b8def;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.saas-button:hover {
+  background: #4a7de0;
+  transform: translateY(-1px);
+}
+
+/* === */
+
+body {
+  margin: 0;
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    sans-serif;
+  background: radial-gradient(circle at 50% 30%, #1e293b 0%, #0f172a 60%);
+  color: white;
+}
